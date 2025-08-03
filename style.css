@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: white;
+  background-color: #0066cc;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.nav-button:hover {
+  background-color: #3399ff;
+}
+
+section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+h2 {
+  color: #0066cc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+}
+
+.download-btn:hover {
+  background-color: #5cd68d;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+
+form button:hover {
+  background-color: #3399ff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
+
+#projects a {
+  color: #1a73e8;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+#projects a:hover {
+  color: #0b59d8;
+  text-decoration: underline;
+}
